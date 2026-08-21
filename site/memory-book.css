@@ -139,6 +139,7 @@ img { display: block; max-width: 100%; }
   .hdr__burger { display: block; flex: 1; font-size: 22px; line-height: 1; cursor: pointer; color: #5c5342; }
   .hdr__brand { font-size: 22px; flex: 2; gap: 8px; }
   .hdr__logo { height: 42px; }
+  .hdr__brand span { display: none; }
   .hdr__cart { display: block; flex: 1; text-align: right; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #5c5342; }
   .hdr__nav {
     display: none;
