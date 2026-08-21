@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tripti Crafts — Magazine Spread</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="magazine-spread.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+<header class="hdr">
+  <label for="nav-toggle" class="hdr__burger" aria-label="Toggle menu">☰</label>
+  <nav class="hdr__nav hdr__nav--left">
+    <a href="#">Her Story</a>
+    <a href="#">Sarees</a>
+    <a href="#">Weaves</a>
+  </nav>
+  <a href="#" class="hdr__brand">Tripti Crafts</a>
+  <nav class="hdr__nav hdr__nav--right">
+    <a href="#">Search</a>
+    <a href="#">Bag (0)</a>
+  </nav>
+  <a href="#" class="hdr__cart">Bag</a>
+</header>
+
+<main>
+  <!-- asymmetric hero -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="eyebrow eyebrow--accent">Tripti · तृप्ति · satisfaction · Est. 2023</p>
+      <h1 class="hero__title">In her memory,<br>a house of<br><em>handwoven</em> sarees.</h1>
+      <p class="hero__body">Tripti Crafts began as a daughter's promise — to carry forward a mother's love for the loom. Every saree we sell keeps her story in the weave.</p>
+      <div class="btn-row">
+        <a href="#" class="btn btn--solid">Read her story</a>
+        <a href="#" class="btn btn--outline">Shop the collection</a>
+      </div>
+    </div>
+    <div class="hero__img ph ph--135">
+      <div class="orn-frame"></div>
+      <span class="ph__cap">tall portrait · draped saree</span>
+    </div>
+  </section>
+
+  <!-- pull quote band -->
+  <section class="quote">
+    <div class="quote__inner">
+      <p class="eyebrow eyebrow--gold">Why we do this</p>
+      <blockquote class="quote__text">“The name captures the essence of our mother — a woman of fierce energy and unshakable conviction. We carry her forward, one weave at a time.”</blockquote>
+    </div>
+  </section>
+
+  <!-- offset image + weave list -->
+  <section class="weaves">
+    <div class="weaves__img ph ph--45"><span class="ph__cap">weaver's hands · loom detail</span></div>
+    <div class="weaves__text">
+      <p class="eyebrow eyebrow--accent">Shop by weave</p>
+      <h2 class="weaves__title">Six threads,<br>one house.</h2>
+      <div class="weave-list">
+        <a href="#" class="weave-row"><span class="weave-row__name">Tussar</span><span class="weave-row__meta">12 pieces →</span></a>
+        <a href="#" class="weave-row"><span class="weave-row__name">Kalamkari</span><span class="weave-row__meta">08 pieces →</span></a>
+        <a href="#" class="weave-row"><span class="weave-row__name">Kantha</span><span class="weave-row__meta">15 pieces →</span></a>
+        <a href="#" class="weave-row weave-row--last"><span class="weave-row__name">Pure Silk</span><span class="weave-row__meta">18 pieces →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- catalogue: staggered 3-up -->
+  <section class="catalogue">
+    <div class="section-head">
+      <h2 class="section-title">Founder's favourites</h2>
+      <a href="#" class="link-underline">View all sarees →</a>
+    </div>
+    <div class="grid-3">
+      <article class="product">
+        <div class="product__img ph ratio-34"></div>
+        <h3 class="product__name">Tusser Shivori</h3>
+        <p class="product__sub">mirror work</p>
+        <p class="product__price">₹10,500</p>
+      </article>
+      <article class="product product--offset">
+        <div class="product__img ph ratio-34"></div>
+        <h3 class="product__name">Raw Silk Jori</h3>
+        <p class="product__sub">jori border</p>
+        <p class="product__price">₹12,500</p>
+      </article>
+      <article class="product">
+        <div class="product__img ph ratio-34"></div>
+        <h3 class="product__name">Tusser Pure Kota</h3>
+        <p class="product__sub">airy handloom</p>
+        <p class="product__price">₹12,500</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <div class="footer__wordmark">Tripti Crafts</div>
+      <p class="footer__tag">Carrying her spirit forward — one handwoven saree at a time.</p>
+    </div>
+    <div class="footer__cols">
+      <div><div class="footer__label">Shop</div><div>Sarees</div><div>Weaves</div><div>New in</div></div>
+      <div><div class="footer__label">House</div><div>Story</div><div>Makers</div><div>Contact</div></div>
+    </div>
+  </div>
+  <div class="footer__copy">© 2026 Tripti Crafts · Handwoven in India</div>
+</footer>
+
+<a href="index.html" class="back-to-gallery" aria-label="Back to all designs">← All designs</a>
+
+</body>
+</html>
