@@ -95,11 +95,15 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid #e6d9bf;
 }
 .hdr__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   font-family: 'Marcellus', serif;
   font-size: 30px;
   letter-spacing: .06em;
   color: #6e2b2b;
 }
+.hdr__logo { height: 40px; width: auto; flex: 0 0 auto; }
 .hdr__nav {
   display: flex;
   gap: 34px;
@@ -253,7 +257,8 @@ img { display: block; max-width: 100%; }
   .announce { font-size: 10px; letter-spacing: .08em; padding: 9px; }
   .hdr { padding: 16px 20px; }
   .hdr__burger { display: block; flex: 1; font-size: 22px; line-height: 1; cursor: pointer; color: #5a4b34; }
-  .hdr__brand { font-size: 21px; text-align: center; }
+  .hdr__brand { font-size: 21px; justify-content: center; gap: 8px; }
+  .hdr__logo { height: 30px; }
   .hdr__cart { display: block; flex: 1; text-align: right; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #5a4b34; }
   .hdr__nav {
     display: none;

@@ -61,12 +61,16 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid #ddd3bf;
 }
 .hdr__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   font-size: 26px;
   letter-spacing: .02em;
   color: #26221c;
 }
+.hdr__logo { height: 40px; width: auto; flex: 0 0 auto; }
 .hdr__nav {
   display: flex;
   gap: 38px;
@@ -245,7 +249,8 @@ img { display: block; max-width: 100%; }
     cursor: pointer;
     color: #4a4234;
   }
-  .hdr__brand { font-size: 22px; text-align: center; }
+  .hdr__brand { font-size: 22px; justify-content: center; gap: 8px; }
+  .hdr__logo { height: 30px; }
   .hdr__cart {
     display: block;
     flex: 1;
