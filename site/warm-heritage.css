@@ -104,6 +104,7 @@ img { display: block; max-width: 100%; }
   color: #6e2b2b;
 }
 .hdr__logo { height: 56px; width: auto; flex: 0 0 auto; }
+.hdr__brand-bn { font-family: 'Noto Serif Bengali', 'Marcellus', serif; }
 .hdr__nav {
   display: flex;
   gap: 34px;
@@ -355,10 +356,18 @@ img { display: block; max-width: 100%; }
   .weave__grid { grid-template-columns: repeat(3,1fr); gap: 18px; }
   .weave__label { font-size: 11px; }
 
-  .favourites { padding: 44px 24px; }
-  .section-head { display: block; text-align: center; margin-bottom: 26px; }
+  .favourites { padding: 44px 0 44px 24px; }
+  .section-head { display: block; text-align: center; margin-bottom: 26px; padding-right: 24px; }
   .section-head .link-underline { margin-top: 16px; }
-  .grid-4 { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .grid-4 {
+    display: flex;
+    grid-template-columns: none;
+    gap: 18px;
+    overflow-x: auto;
+    padding-right: 24px;
+    padding-bottom: 14px;
+  }
+  .grid-4 .product { flex: 0 0 70vw; }
 
   .makers { grid-template-columns: 1fr; }
   .makers__img { min-height: 240px; }
@@ -375,11 +384,13 @@ img { display: block; max-width: 100%; }
   .newsletter-sec__body { font-size: 14px; }
   .subscribe { flex-direction: column; max-width: 340px; }
 
-  .footer { padding: 48px 24px 40px; text-align: center; }
-  .footer__grid { grid-template-columns: 1fr; gap: 30px; }
+  .footer { padding: 44px 24px 32px; }
+  .footer__grid { grid-template-columns: 1fr 1fr; gap: 28px 24px; }
+  .footer__brand { grid-column: 1 / -1; }
   .footer__tag { max-width: none; }
+  .footer__copy { margin-top: 32px; padding-top: 20px; text-align: center; }
 }
 
 @media (max-width: 480px) {
-  .grid-4 { grid-template-columns: 1fr; }
+  .grid-4 .product { flex: 0 0 78vw; }
 }
