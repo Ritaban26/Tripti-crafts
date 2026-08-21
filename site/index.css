@@ -51,6 +51,13 @@ img { display: block; max-width: 100%; }
   gap: 34px;
 }
 
+.cards__final { grid-column: 1 / -1; }
+.card--final {
+  border-color: var(--accent);
+  box-shadow: 0 18px 44px rgba(122, 46, 46, .14);
+}
+.card--final .card__swatch { height: 300px; }
+
 .card {
   display: block;
   background: #fbf7ef;

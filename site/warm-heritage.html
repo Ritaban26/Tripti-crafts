@@ -96,27 +96,31 @@
     </div>
     <div class="grid-4">
       <article class="product">
-        <div class="product__img ph ratio-45"></div>
+        <div class="product__img ph ratio-45"><span class="mark">Handloom mark</span></div>
         <h3 class="product__name">Tusser Shivori</h3>
         <p class="product__sub">mirror work</p>
+        <div class="stock"><span class="stock__dot"></span><span class="stock__label">In stock</span></div>
         <div class="product__foot"><span class="product__price">₹10,500</span><a href="#" class="add">Add</a></div>
       </article>
       <article class="product">
         <div class="product__img ph ratio-45"></div>
         <h3 class="product__name">Raw Silk Jori</h3>
         <p class="product__sub">jori border</p>
+        <div class="stock"><span class="stock__dot"></span><span class="stock__label">In stock</span></div>
         <div class="product__foot"><span class="product__price">₹12,500</span><a href="#" class="add">Add</a></div>
       </article>
       <article class="product">
         <div class="product__img ph ratio-45"></div>
         <h3 class="product__name">Tusser Pure Kota</h3>
         <p class="product__sub">airy handloom</p>
+        <div class="stock"><span class="stock__dot"></span><span class="stock__label">In stock</span></div>
         <div class="product__foot"><span class="product__price">₹12,500</span><a href="#" class="add">Add</a></div>
       </article>
       <article class="product">
         <div class="product__img ph ratio-45"></div>
         <h3 class="product__name">Cotton Khadi</h3>
         <p class="product__sub">everyday drape</p>
+        <div class="stock stock--low"><span class="stock__dot"></span><span class="stock__label">Low stock</span></div>
         <div class="product__foot"><span class="product__price">₹6,700</span><a href="#" class="add">Add</a></div>
       </article>
     </div>
@@ -140,6 +144,23 @@
     <div class="values__cell"><span class="values__diamond"></span><span class="values__label">Ready Blouse Option</span></div>
     <div class="values__cell"><span class="values__diamond"></span><span class="values__label">Ships Worldwide</span></div>
   </section>
+
+  <!-- newsletter -->
+  <section class="newsletter-sec">
+    <div class="divider">
+      <span class="divider__line divider__line--sm"></span>
+      <span class="divider__diamond divider__diamond--gold"></span>
+      <span class="divider__line divider__line--sm"></span>
+    </div>
+    <p class="eyebrow eyebrow--accent">Join the Tripti circle</p>
+    <h2 class="newsletter-sec__title">Her story, and the newest weaves,<br>straight to your inbox.</h2>
+    <p class="newsletter-sec__body">Be first to see new arrivals, hear the makers behind each drape, and receive quiet notes on slow craft. No noise — just the weave.</p>
+    <form class="subscribe" onsubmit="return false">
+      <input type="email" placeholder="Your email address" aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-sec__fine">We send a note or two a month. Unsubscribe anytime.</p>
+  </section>
 </main>
 
 <footer class="footer">
@@ -157,12 +178,9 @@
       <div>Our story</div><div>The makers</div><div>Journal</div><div>Contact</div>
     </div>
     <div class="footer__col">
-      <div class="footer__label">Stay in touch</div>
-      <p class="footer__note">Notes on new weaves and the story behind them.</p>
-      <form class="newsletter" onsubmit="return false">
-        <input type="email" placeholder="Email address" aria-label="Email address">
-        <button type="submit">Join</button>
-      </form>
+      <div class="footer__label">Contact</div>
+      <div>hello@tripticrafts.com</div><div>Kolkata, West Bengal</div>
+      <div class="footer__social"><a href="#">Instagram</a> · <a href="#">Facebook</a></div>
     </div>
   </div>
   <div class="footer__copy">© 2026 Tripti Crafts · Handwoven in India</div>
