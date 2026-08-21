@@ -25,7 +25,7 @@ img { display: block; max-width: 100%; }
   padding: 96px 40px 80px;
 }
 .gallery__head { text-align: center; margin-bottom: 64px; }
-.gallery__logo { height: 92px; width: auto; margin: 0 auto 26px; }
+.gallery__logo { height: 120px; width: auto; margin: 0 auto 24px; }
 .gallery__wordmark {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
@@ -137,7 +137,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 768px) {
   .gallery { padding: 56px 22px 56px; }
   .gallery__wordmark { font-size: 46px; }
-  .gallery__logo { height: 68px; }
+  .gallery__logo { height: 88px; }
   .gallery__sub { font-size: 15px; }
   .gallery__head { margin-bottom: 40px; }
   .cards { grid-template-columns: 1fr; gap: 24px; }

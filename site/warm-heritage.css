@@ -103,7 +103,7 @@ img { display: block; max-width: 100%; }
   letter-spacing: .06em;
   color: #6e2b2b;
 }
-.hdr__logo { height: 40px; width: auto; flex: 0 0 auto; }
+.hdr__logo { height: 56px; width: auto; flex: 0 0 auto; }
 .hdr__nav {
   display: flex;
   gap: 34px;
@@ -258,7 +258,7 @@ img { display: block; max-width: 100%; }
   .hdr { padding: 16px 20px; }
   .hdr__burger { display: block; flex: 1; font-size: 22px; line-height: 1; cursor: pointer; color: #5a4b34; }
   .hdr__brand { font-size: 21px; justify-content: center; gap: 8px; }
-  .hdr__logo { height: 30px; }
+  .hdr__logo { height: 42px; }
   .hdr__cart { display: block; flex: 1; text-align: right; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #5a4b34; }
   .hdr__nav {
     display: none;

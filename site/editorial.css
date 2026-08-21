@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; }
   letter-spacing: .02em;
   color: #26221c;
 }
-.hdr__logo { height: 40px; width: auto; flex: 0 0 auto; }
+.hdr__logo { height: 56px; width: auto; flex: 0 0 auto; }
 .hdr__nav {
   display: flex;
   gap: 38px;
@@ -250,7 +250,7 @@ img { display: block; max-width: 100%; }
     color: #4a4234;
   }
   .hdr__brand { font-size: 22px; justify-content: center; gap: 8px; }
-  .hdr__logo { height: 30px; }
+  .hdr__logo { height: 42px; }
   .hdr__cart {
     display: block;
     flex: 1;
